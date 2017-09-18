@@ -55,6 +55,12 @@ import com.google.android.gms.location.places.ui.PlacePicker;
 import java.util.ArrayList;
 import java.util.List;
 
+// TODO (4) Create a GoogleApiClient with the LocationServices API and GEO_DATA_API
+// TODO (5) Override onConnected, onConnectionSuspended and onConnectionFailed for GoogleApiClient
+// TODO (7) Override onResume and inside it initialize the location permissions checkbox
+// TODO (8) Implement onLocationPermissionClicked to handle the CheckBox click event
+// TODO (9) Implement the Add Place Button click event to show  a toast message with the permission status
+
 public class MainActivity extends AppCompatActivity implements
         ConnectionCallbacks,
         OnConnectionFailedListener {
